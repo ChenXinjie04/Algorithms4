@@ -90,6 +90,7 @@
     "Application.Evaluate.executor": "Run",
     "Application.FixedCapacityStack.executor": "Run",
     "Application.FixedCapacityStackOfStrings.executor": "Run",
+    "Application.ResizingArrayStack.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -169,7 +170,7 @@
       <workItem from="1737778738342" duration="14000" />
       <workItem from="1737778877295" duration="1000" />
       <workItem from="1737860315751" duration="252000" />
-      <workItem from="1737860578989" duration="5099000" />
+      <workItem from="1737860578989" duration="6047000" />
     </task>
     <servers />
   </component>
