@@ -87,24 +87,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Bag.executor": "Run",
     "Application.Evaluate.executor": "Run",
     "Application.FixedCapacityStack.executor": "Run",
     "Application.FixedCapacityStackOfStrings.executor": "Run",
+    "Application.Queue.executor": "Run",
     "Application.ResizingArrayStack.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/cxj/Desktop/algorithms4/exercises/Ch_1_3",
+    "last_opened_file_path": "/Users/chenxinjie/Algorithms4/exercises/Ch_1_3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.pathVariables",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ResizingArrayStack">
+  <component name="RunManager" selected="Application.Bag">
+    <configuration name="Bag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bag" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Evaluate" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Evaluate" />
       <module name="Algorithms, Part I" />
@@ -132,6 +141,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue" />
+      <module name="Algorithms, Part I" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/tobe" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResizingArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ResizingArrayStack" />
       <module name="Algorithms, Part I" />
@@ -142,11 +160,15 @@
     <list>
       <item itemvalue="Application.Evaluate" />
       <item itemvalue="Application.FixedCapacityStackOfStrings" />
+      <item itemvalue="Application.Bag" />
+      <item itemvalue="Application.Queue" />
       <item itemvalue="Application.ResizingArrayStack" />
       <item itemvalue="Application.FixedCapacityStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bag" />
+        <item itemvalue="Application.Queue" />
         <item itemvalue="Application.ResizingArrayStack" />
         <item itemvalue="Application.FixedCapacityStack" />
       </list>
@@ -155,8 +177,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -171,6 +193,8 @@
       <workItem from="1737778877295" duration="1000" />
       <workItem from="1737860315751" duration="252000" />
       <workItem from="1737860578989" duration="6047000" />
+      <workItem from="1737870715303" duration="520000" />
+      <workItem from="1737871249611" duration="2579000" />
     </task>
     <servers />
   </component>
