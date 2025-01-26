@@ -4,6 +4,8 @@
  *  Last modified:     October 16, 1842
  **************************************************************************** */
 
+import edu.princeton.cs.algs4.StdIn;
+
 public class Stack<Item> {
     private Node first;
     private int N;
@@ -36,7 +38,21 @@ public class Stack<Item> {
         return item;
     }
 
-    public static void main(String[] args) {
+    public Item peek() {
+        return first.item;
+    }
 
+    public static void main(String[] args) {
+        Stack<String> stack = new Stack<>();
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-")) {
+                stack.push(item);
+            }
+            else {
+                System.out.print(stack.pop() + " ");
+            }
+        }
+        System.out.println("(" + stack.size() + " left on stack)");
     }
 }

@@ -4,6 +4,8 @@
  *  Last modified:     October 16, 1842
  **************************************************************************** */
 
+import edu.princeton.cs.algs4.StdIn;
+
 import java.util.Iterator;
 
 public class ResizingArrayStack<Item> implements Iterable<Item> {
@@ -54,12 +56,24 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         }
     }
 
+    public int size() {
+        return N;
+    }
+
     public static void main(String[] args) {
         ResizingArrayStack<String> stack = new ResizingArrayStack<>();
-        stack.push("Hello");
-        stack.push("World");
-        for (String i : stack) {
-            System.out.println(i);
+        while (!StdIn.isEmpty()) {
+            String item = StdIn.readString();
+            if (!item.equals("-")) {
+                stack.push(item);
+            }
+            else {
+                System.out.print(stack.pop() + " ");
+            }
         }
+        System.out.println("(" + stack.size() + " left on stack)");
+        System.out.println("Contents is:");
+        for (String s : stack)
+            System.out.println(s);
     }
 }

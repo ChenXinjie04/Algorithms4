@@ -89,10 +89,16 @@
   "keyToString": {
     "Application.Bag.executor": "Run",
     "Application.Evaluate.executor": "Run",
+    "Application.EvaluatePostfix.executor": "Run",
+    "Application.Ex_1_3_10.executor": "Run",
+    "Application.Ex_1_3_6.executor": "Run",
+    "Application.Ex_1_3_9.executor": "Run",
     "Application.FixedCapacityStack.executor": "Run",
     "Application.FixedCapacityStackOfStrings.executor": "Run",
+    "Application.Parentheses.executor": "Run",
     "Application.Queue.executor": "Run",
     "Application.ResizingArrayStack.executor": "Run",
+    "Application.Stack.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -106,14 +112,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Bag">
-    <configuration name="Bag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bag" />
-      <module name="Algorithms, Part I" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex_1_3_12">
     <configuration name="Evaluate" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Evaluate" />
       <module name="Algorithms, Part I" />
@@ -123,11 +122,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FixedCapacityStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FixedCapacityStack" />
+    <configuration name="EvaluatePostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvaluatePostfix" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_1_3_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex_1_3_10" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_1_3_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex_1_3_12" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_1_3_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex_1_3_6" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex_1_3_9" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex_1_3_9" />
       <module name="Algorithms, Part I" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/FixedCapacityStackOfStrings" />
+      <option name="INPUT_FILE" value="Ex_1_3_9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,36 +168,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue" />
+    <configuration name="Parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Parentheses" />
       <module name="Algorithms, Part I" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="$PROJECT_DIR$/tobe" />
+      <option name="INPUT_FILE" value="parentheses" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResizingArrayStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ResizingArrayStack" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ResizingArrayStack" />
       <module name="Algorithms, Part I" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="itwas" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Ex_1_3_9" />
       <item itemvalue="Application.Evaluate" />
       <item itemvalue="Application.FixedCapacityStackOfStrings" />
-      <item itemvalue="Application.Bag" />
-      <item itemvalue="Application.Queue" />
       <item itemvalue="Application.ResizingArrayStack" />
-      <item itemvalue="Application.FixedCapacityStack" />
+      <item itemvalue="Application.EvaluatePostfix" />
+      <item itemvalue="Application.Ex_1_3_10" />
+      <item itemvalue="Application.Ex_1_3_12" />
+      <item itemvalue="Application.Ex_1_3_6" />
+      <item itemvalue="Application.Parentheses" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bag" />
-        <item itemvalue="Application.Queue" />
-        <item itemvalue="Application.ResizingArrayStack" />
-        <item itemvalue="Application.FixedCapacityStack" />
+        <item itemvalue="Application.Ex_1_3_12" />
+        <item itemvalue="Application.EvaluatePostfix" />
+        <item itemvalue="Application.Ex_1_3_10" />
+        <item itemvalue="Application.Ex_1_3_6" />
+        <item itemvalue="Application.Parentheses" />
       </list>
     </recent_temporary>
   </component>
