@@ -88,9 +88,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Bag.executor": "Run",
+    "Application.EX_1_3_16.executor": "Run",
     "Application.Evaluate.executor": "Run",
     "Application.EvaluatePostfix.executor": "Run",
     "Application.Ex_1_3_10.executor": "Run",
+    "Application.Ex_1_3_12.executor": "Run",
+    "Application.Ex_1_3_17.executor": "Run",
     "Application.Ex_1_3_6.executor": "Run",
     "Application.Ex_1_3_9.executor": "Run",
     "Application.FixedCapacityStack.executor": "Run",
@@ -102,7 +105,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/chenxinjie/Algorithms4/exercises/Ch_1_3",
+    "last_opened_file_path": "/home/cxj/Desktop/algorithms4/exercises/Ch_1_4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,7 +115,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ex_1_3_12">
+  <component name="RunManager" selected="Application.Ex_1_3_17">
+    <configuration name="EX_1_3_16" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EX_1_3_16" />
+      <module name="Algorithms, Part I" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="Dates" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Evaluate" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Evaluate" />
       <module name="Algorithms, Part I" />
@@ -143,6 +155,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex_1_3_17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex_1_3_17" />
+      <module name="Algorithms, Part I" />
+      <option name="REDIRECT_INPUT" value="true" />
+      <option name="INPUT_FILE" value="Transactions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ex_1_3_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex_1_3_6" />
       <module name="Algorithms, Part I" />
@@ -168,15 +189,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Parentheses" />
-      <module name="Algorithms, Part I" />
-      <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="parentheses" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ResizingArrayStack" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ResizingArrayStack" />
       <module name="Algorithms, Part I" />
@@ -187,31 +199,32 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Ex_1_3_9" />
+      <item itemvalue="Application.EX_1_3_16" />
       <item itemvalue="Application.Evaluate" />
+      <item itemvalue="Application.Ex_1_3_9" />
       <item itemvalue="Application.FixedCapacityStackOfStrings" />
       <item itemvalue="Application.ResizingArrayStack" />
       <item itemvalue="Application.EvaluatePostfix" />
       <item itemvalue="Application.Ex_1_3_10" />
       <item itemvalue="Application.Ex_1_3_12" />
+      <item itemvalue="Application.Ex_1_3_17" />
       <item itemvalue="Application.Ex_1_3_6" />
-      <item itemvalue="Application.Parentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex_1_3_17" />
         <item itemvalue="Application.Ex_1_3_12" />
         <item itemvalue="Application.EvaluatePostfix" />
         <item itemvalue="Application.Ex_1_3_10" />
         <item itemvalue="Application.Ex_1_3_6" />
-        <item itemvalue="Application.Parentheses" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
       </set>
     </attachedChunks>
   </component>
@@ -228,6 +241,8 @@
       <workItem from="1737860578989" duration="6047000" />
       <workItem from="1737870715303" duration="520000" />
       <workItem from="1737871249611" duration="2579000" />
+      <workItem from="1738738411615" duration="4000" />
+      <workItem from="1738738453077" duration="13000" />
     </task>
     <servers />
   </component>
@@ -269,5 +284,12 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
